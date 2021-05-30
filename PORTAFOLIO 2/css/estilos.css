@@ -145,7 +145,7 @@ body::-webkit-scrollbar-thumb{
     left: 50%;
     transform: translate(-50%, -50%);
     text-shadow: 2px 2px 1px #000;
-    color: white;
+    color: #fff;
 }
 
 .hero-paragraph{
@@ -905,6 +905,14 @@ body::-webkit-scrollbar-thumb{
 }
 
 @media screen and (max-width: 485px){
+    .hero-text{
+        bottom: 15px;
+    }
+
+    .hero-paragraph{
+        top: 46%;
+    }
+
     .side-contact{
         width: 50px;
     }
