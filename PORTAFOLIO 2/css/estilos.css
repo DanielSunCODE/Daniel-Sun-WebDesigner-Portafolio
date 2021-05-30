@@ -31,8 +31,6 @@ body::-webkit-scrollbar-thumb{
 /*NAV*/
 .main-nav{
     display: flex;
-    align-items: center;
-    justify-content: center;
     position: fixed;
     top: 0;
     width: 100%;
@@ -40,12 +38,6 @@ body::-webkit-scrollbar-thumb{
     color: white;
     background: var(--primary-color);
     z-index: 100;
-}
-
-.nav-container{
-    display: flex;
-    width: 90%;
-    height: inherit;
 }
 
 .logo-title-container{
@@ -97,8 +89,8 @@ body::-webkit-scrollbar-thumb{
     transition: .5s;
 }
 
-.link a{
-    color: white;
+.link  a{
+    color: #fff;
     text-decoration: none;
 }
 
@@ -429,7 +421,7 @@ body::-webkit-scrollbar-thumb{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid rgba(255, 255, 255, 0.719);
+    border: 2px solid rgba(28, 32, 87, 0.719);
     color: white;
     padding: 1rem;
     width: 100%;
@@ -638,10 +630,21 @@ body::-webkit-scrollbar-thumb{
         height: 100px;
         width: 100%;
         margin-right: 0px;
+        border-radius: 0;
+        transition: 0.25s;
+    }
+
+    .link a{
+        color: black;
     }
 
     .link:hover{
+        background: var(--primary-color);
         border-radius: 0;
+    }
+
+    .link:hover > a{
+        color: #fff;
     }
 
     .link::before{
@@ -774,9 +777,16 @@ body::-webkit-scrollbar-thumb{
         height: 100px;
         width: 100%;
         margin-right: 0px;
+        border-radius: 0;
+        transition: 0.25s;
+    }
+
+    .link a{
+        color: black;
     }
 
     .link:hover{
+        background: var(--primary-color);
         border-radius: 0;
     }
 
