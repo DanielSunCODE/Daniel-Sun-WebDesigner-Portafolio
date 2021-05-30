@@ -421,7 +421,7 @@ body::-webkit-scrollbar-thumb{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid rgba(28, 32, 87, 0.719);
+    border: 2px solid rgba(255, 255, 255, 0.795);
     color: white;
     padding: 1rem;
     width: 100%;
